@@ -4,8 +4,12 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
+    "lint": "eslint --config eslint/eslintrc.js --ext .js lib/"
   },
   "keywords": [],
-  "author": "itou0104jp <itou0104jp@gmail.com>",
-  "license": "MIT"
+  "author": "tokghwt <tokghwt@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.43.0"
+  }
 }
