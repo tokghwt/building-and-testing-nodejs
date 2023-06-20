@@ -1,0 +1,11 @@
+{
+  "name": "building-and-testing-nodejs",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "itou0104jp <itou0104jp@gmail.com>",
+  "license": "MIT"
+}
