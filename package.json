@@ -4,12 +4,14 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "lint": "eslint --config eslint/eslintrc.js --ext .js lib/"
+    "lint": "eslint --config eslint/eslintrc.js --ext .js lib/",
+    "test": "jest --config=jest/jest.config.js --colors --coverage"
   },
   "keywords": [],
   "author": "tokghwt <tokghwt@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^8.43.0"
+    "eslint": "^8.43.0",
+    "jest": "^29.5.0"
   }
 }
