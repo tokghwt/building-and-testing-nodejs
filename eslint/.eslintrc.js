@@ -1,4 +1,4 @@
-https://eslint.org/docs/latest/use/configure/
+// https://eslint.org/docs/latest/use/configure/
 module.exports = {
   root: true,
   env: {
