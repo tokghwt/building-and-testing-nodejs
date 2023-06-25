@@ -1,4 +1,4 @@
-on: [push, pull_request]
+on: [push, pull_request, pull_request_target]
 
 jobs:
   check:
@@ -6,6 +6,6 @@ jobs:
     steps:
       - name: Check action step
         id: checkstep
-        uses: tokghwt/my-js-action@v0.3.0
+        uses: tokghwt/my-js-action@v0.4.0
         with:
-          pattern: '^[feat|fix|release|chore]: #[0-9]+: '
+          pattern: '^(?:feat|fix|release|chore): (?:#[1-9][0-9]*: )?[A-Z]'
