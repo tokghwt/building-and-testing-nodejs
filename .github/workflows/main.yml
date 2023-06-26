@@ -6,6 +6,6 @@ jobs:
     steps:
       - name: Check action step
         id: checkstep
-        uses: tokghwt/my-js-action@v0.4.0
+        uses: tokghwt/my-js-action@v0.5.0
         with:
           pattern: '^(?:feat|fix|release|chore): (?:#[1-9][0-9]*: )?[A-Z]'
