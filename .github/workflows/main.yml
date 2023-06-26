@@ -1,5 +1,14 @@
-on: [push, pull_request, pull_request_target]
-#test
+on:
+  pull_request:
+    types:
+      - opened
+      - edited
+  pull_request_target:
+    types:
+      - opened
+      - edited
+  push:
+
 jobs:
   check:
     runs-on: ubuntu-latest
