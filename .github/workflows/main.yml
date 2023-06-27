@@ -10,4 +10,4 @@ jobs:
         id: checkstep
         uses: tokghwt/my-js-action@v0.8.0
         with:
-          pattern: '^(?:feat|fix|release|chore)(?:\\([^)]+\\))?: [A-Z]'
+          pattern: '^(?:feat|fix|release|chore)(?:\([^)]+\))?: [A-Z]'
