@@ -1,6 +1,6 @@
 on:
   pull_request:
-    types: [opened, edited, closed, synchronize]
+    types: [opened, edited]
 
 jobs:
   check:
