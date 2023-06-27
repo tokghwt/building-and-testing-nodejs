@@ -3,18 +3,13 @@ on:
     types:
       - opened
       - edited
-  pull_request_target:
-    types:
-      - opened
-      - edited
-  push:
-#test
+
 jobs:
   check:
     runs-on: ubuntu-latest
     steps:
       - name: Check action step
         id: checkstep
-        uses: tokghwt/my-js-action@v0.6.0
+        uses: tokghwt/my-js-action@v0.7.0
         with:
-          pattern: '^(?:feat|fix|release|chore): (?:#[1-9][0-9]*: )?[A-Z]'
+          pattern: '^(?:feat|fix|release|chore)(?:\\([^)]+\\))?: (?:#[1-9][0-9]*: )?[A-Z]'
