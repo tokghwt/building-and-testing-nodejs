@@ -1,6 +1,8 @@
 on:
   pull_request:
-    types: [opened, edited]
+    types: [opened, edited, closed]
+  push:
+    branches: [main]
 
 jobs:
   check:
