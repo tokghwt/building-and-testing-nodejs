@@ -13,7 +13,7 @@
   "author": "tokghwt <tokghwt@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@tsconfig/node14": "^1.0.3",
+    "@tsconfig/node14": "^14.1.0",
     "@types/node": "^20.3.2",
     "@typescript-eslint/eslint-plugin": "^5.60.1",
     "@typescript-eslint/parser": "^5.60.1",
