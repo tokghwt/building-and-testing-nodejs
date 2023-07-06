@@ -1,13 +1,10 @@
 on:
-  pull_request:
-    types: [opened, edited]
   push:
     branches: [main]
-
 jobs:
-  commit_message_check:
+  commit-message-check:
     runs-on: ubuntu-latest
     steps:
-      - uses: tokghwt/my-js-action@v0.11.0
+      - uses: tokghwt/my-js-action@v0
         with:
           pattern: '^(?:feat|fix|release|chore)(?:\([^)]+\))?: [A-Z]'
